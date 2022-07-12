@@ -1,1 +1,37 @@
+* {
+    box-sizing: border-box;
+    border: 2px solid red;
+}
 
+div {
+    display: flex;
+}
+
+d1 {
+    background-color: #1F2937;
+    color: white;
+}
+
+d2 {
+    color: black;
+}
+
+d3 {
+    background-color: #E5E7EB;
+    color: black;
+}
+
+d4 {
+    color: white;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+footer {
+    background-color: #1F2937;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
