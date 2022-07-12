@@ -8,20 +8,26 @@ div {
 }
 
 d1 {
+    height: 500px;
     background-color: #1F2937;
     color: white;
 }
 
 d2 {
+    height: 400px;
     color: black;
+    background-color: white;
 }
 
 d3 {
+    height: 300px;
     background-color: #E5E7EB;
     color: black;
 }
 
 d4 {
+    height: 200px;
+    background-color: white;
     color: white;
 }
 
