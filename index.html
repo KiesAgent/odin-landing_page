@@ -13,11 +13,11 @@
     <body>
         <!-- First main section -->
         <div class="d1">
-            <div style="margin-left: 15%; margin-right: 15%; height: 100%">
+            <div style="margin-left: 15%; margin-right: 15%; height: 100%; display: flex; flex-direction: column; gap: 25px">
                 <!-- Header logo and header links -->
                 <div style="color: #F9FAF8; display: flex; padding-top: 10px; padding-bottom: 10px">
                     <!-- Header logo -->
-                    <div style="font-weight: 900; width: 50%">
+                    <div style="font-weight: 900; width: 50%; font-size: 18px">
                         Header Logo
                     </div>
 
@@ -30,18 +30,21 @@
                 </div>
 
                 <!-- Hero text and image -->
-                <div style="color: #F9FAF8; display: flex">
+                <div style="color: #F9FAF8; display: flex; gap: 15px">
                     <!-- Hero text -->
-                    <div style="width: 50%">
-                        <p><strong>This website is awesome</strong></p>
+                    <div style="width: 50%; display: flex; flex-direction: column; gap: 5px; justify-content: center;">
+                        <p style="font-size: 30px"><strong>This website is awesome</strong></p>
                         <p>This website has some subtext that goes here under the main title. It's a smaller
                             font and the color is lower contrast
+                        </p>
+                        <p class="rounded-corners" style="width: 100px; height: 25px; background: #3882F6">
+                            <strong>Sign Up</strong>
                         </p>
                     </div>
 
                     <!-- Placeholder image -->
-                    <div style="width: 50%">
-
+                    <div style="width: 50%; background-color: gray; display: flex; justify-content: center; align-items: center">
+                        <p>this is a placeholder for an image</p>
                     </div>
                 </div>
             </div>
